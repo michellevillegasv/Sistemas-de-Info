@@ -1,0 +1,108 @@
+
+*, ::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    position: absolute;
+    width: 467px;
+    height: 39px;
+    left: 200px;
+    top: 670px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 27px;
+    line-height: 39px;
+}
+
+.date{
+    position: absolute;
+    width: 247px;
+    height: 39px;
+    left: 261px;
+    top: 710px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 27px;
+    line-height: 39px;
+}
+.carnet{
+    position: absolute;
+    width: 324px;
+    height: 39px;
+    left: 864px;
+    top: 710px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 27px;
+    line-height: 39px;
+}
+.id{
+    position: absolute;
+    width: 224px;
+    height: 39px;
+    left: 261px;
+    top: 611px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 28px;
+    line-height: 39px;
+    z-index: 1;
+
+}
+.imagen{
+    position: absolute;
+    width: 283px;
+    height: 110px;
+    left: 180px;
+    top: 210px;
+
+}
+.backgroundImg{
+    position: absolute;
+    width: 1015px;
+    height: 470px;
+    left: calc(50% - 1015px/2 - 6.5px);
+    top: 200px;
+    mix-blend-mode:normal;
+    z-index: -1;
+}
+.linea{
+    position: absolute;
+    width: 1015px;
+    height: 0px;
+    left: 142px;
+    top: 657px;
+
+    border: 6px solid #131949;
+}
+.rectangulo{
+    position: absolute;
+    width: 250px;
+    height: 355px;
+    left: 850px;
+    top: 235px;
+
+    background: #D9D9D9;
+}
+h2 {
+    position: relative;
+    width: 288px;
+    height: 54px;
+    left: 500px;
+    top: 215px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+}
